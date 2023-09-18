@@ -136,7 +136,12 @@
 	margin-top: 30px;
 	text-align: center;
 	color: red;
-	font-style: italic;
+	font-family: "ALKDots", sans-serif;
+	line-height: 45px;
+	font-weight: 900;
+}
+.main {
+	padding-top: 20px;
 }
 .hotchocolate {
 	width: 650px;
@@ -153,8 +158,10 @@
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
-	font-weight: bold;
-}
+	font-family: 'Kaushan Script', cursive;
+	word-spacing: 20px;
+	line-height: 40px;
+	}
 .h3menu2 {
 	font-size: 25px;
 	text-align: center;
@@ -186,13 +193,22 @@
 }
 .box1menu {
 	width: 350px;
-	margin-top: 14px;
+	margin-top: 30px;
 	margin-left: 200px;
+	margin-bottom: 30px;
 	font-size: 18px;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
 	font-weight: bold;
+}
+.englishmenu {
+	font-family: 'Pacifico';
+	line-height: 35px;
+}
+.georgianmenu {
+	font-family: 'BPG Nuskha Modern';
+	line-height: 35px;
 }
 .Khilamushi {
 	width: 600px;
@@ -211,6 +227,8 @@
 	text-align: center;
 	font-weight: bold;
 	line-height: 20px;
+	font-family: 'Kaushan Script', cursive;
+	line-height: 35px;
 }
 .tea {
 	width: 700px;
