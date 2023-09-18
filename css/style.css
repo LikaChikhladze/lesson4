@@ -1,46 +1,121 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta charset="utf-8">
-	<title> Main Page </title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	 <link rel="icon" type="image/x-icon" href="images/icon.png">
-	<link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/bpg-irubaqidze/css/bpg-irubaqidze.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<header>
-		<a href="index.html"> <img src="images/otakhi.jpeg" alt="otakhi's cartoon cat" class="otakhilogo"> </a>
-		<nav class="nav">
-			<ul>
-				<li class="navli"> <a href="index.html" class="color active"> მთავარი </a> </li>
-				<li class="navli"> <a href="#" class="color"> მენიუ </a> </li>
-				<li class="navli"> <a href="#" class="color"> კონტაქტი </a> </li>
-				</ul>
-		</nav>
-	</header>
-	<section>
-		<div class="container">
-			<h3 class="h3home1 nav"> აქ ყველაფერს პირდაპირი გაგებით თვალები აქვს „ჟოლოფსაც“კი </h3>
-			<div class="block1">
-				<h3 class="h3block1"> Welcome </h3>
-				<img src="images/welcome2.jpeg" alt="welcome to otakhi" class="welcome1">
-				<p class="p1block1"> We ensure your day to be positive and full of good vibes </p>
-			</div>
-			<div class="block2">
-				<h3 class="h3block2"> We're always ready to meet you with a smile on the face and kindness in the eyes </h3>
-				<img src="images/welcome.jpeg" alt="insite of otakhi" class="welcome2">
-				<p class="p2block2"> Feel free to share your wild desires and be ready to make them true with us just by a sip of a coffee of your choise </p>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<div class="footer">
-			<img src="images/otakhi2.jpeg" alt="word OTAKHI in written form" class="footerimage1">
-			<div class="divider"></div>
-			<img src="images/otakhi3.jpeg" alt="otakhi's cat in footer" class="footerimage2">
-		</div>
-	</footer>
-</body>
-</html>
+/*main page*/
+
+.otakhilogo {
+	width: 200px;
+	height: 200px;
+	vertical-align: middle;
+	margin-top: 30px;
+	margin-right: 60px;
+
+}
+.nav {
+	display: inline-block;
+	margin-top: 30px;
+	font-family: "BPG Irubaqidze", sans-serif;
+
+}
+.navli {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 40px;
+	margin-right: 30px;
+	font-weight: bold;
+
+}
+.color {
+	color: #cc00cc;
+}
+.active {
+	color: #ff0000
+;
+} 
+.container {
+	width: 1356px;
+	background-color: #ffe6ff;
+	margin-top: 45px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.h3home1 {
+	font-size: 30px;
+	margin-left: 400px;
+	font-weight: bold;
+}
+.block1 {
+	margin-top: 35px;
+	margin-left: 55px;
+	display: inline-block;
+}
+
+.h3block1 {
+	margin-left: 250px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	color: #ff0000;
+}
+.welcome1 {
+	width: 650px;
+	height: 450px;
+	vertical-align: middle;
+	margin-right: 70px;
+}
+.welcome2 {
+	width: 810px;
+	height: 600px;
+	vertical-align: middle;
+	margin-right: 17px;
+	margin-bottom: 35px;
+}
+.p1block1 {
+	width: 450px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 22px;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+}
+.block2 {
+	margin-top: 60px;
+	margin-left: 110px;
+}
+.h3block2 {
+	margin-bottom: 25px;
+	margin-left: 70px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #ff0000;
+}
+.p2block2 {
+	width: 350px;
+	display: inline-block;
+	font-size: 22px;
+	font-weight: bold;
+	vertical-align: middle;
+	font-style: italic;
+	text-align: center;
+}
+.footer {
+	width: 1356px;
+	margin-top: 55px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.footerimage1 {
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+}
+.divider {
+	width: 3px;
+	height: 110px;
+	background-color: black;
+	display: inline-block;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.footerimage2 {
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+}
