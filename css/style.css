@@ -134,6 +134,7 @@
 .h3menu1 {
 	font-size: 25px;
 	margin-top: 30px;
+	margin-bottom: 15px;
 	text-align: center;
 	color: red;
 	font-family: "ALKDots", sans-serif;
@@ -141,7 +142,7 @@
 	font-weight: 900;
 }
 .main {
-	padding-top: 20px;
+	padding-top: 30px;
 }
 .hotchocolate {
 	width: 650px;
