@@ -40,6 +40,7 @@
 	font-size: 30px;
 	margin-left: 400px;
 	font-weight: bold;
+	text-align: center;
 }
 .block1 {
 	margin-top: 35px;
@@ -52,12 +53,14 @@
 	margin-bottom: 20px;
 	font-size: 25px;
 	color: #ff0000;
+	text-align: center;
 }
 .welcome1 {
 	width: 650px;
 	height: 450px;
 	vertical-align: middle;
 	margin-right: 70px;
+	text-align: center;
 }
 .welcome2 {
 	width: 810px;
@@ -65,6 +68,7 @@
 	vertical-align: middle;
 	margin-right: 17px;
 	margin-bottom: 35px;
+	text-align: center;
 }
 .p1block1 {
 	width: 450px;
@@ -74,6 +78,7 @@
 	font-style: italic;
 	text-align: center;
 	font-weight: bold;
+	text-align: center;
 }
 .block2 {
 	margin-top: 60px;
@@ -85,6 +90,7 @@
 	font-size: 25px;
 	font-weight: bold;
 	color: #ff0000;
+	text-align: center;
 }
 .p2block2 {
 	width: 350px;
@@ -119,8 +125,108 @@
 	height: 110px;
 	display: inline-block;
 }
-<!-- stast of a menu page -->
+
+
+/* start of a menu page */
+
+
 
 .h3menu1 {
+	font-size: 25px;
+	margin-top: 30px;
+	text-align: center;
+	color: red;
+	font-style: italic;
+}
+.hotchocolate {
+	width: 650px;
+	height: 400px;
+	vertical-align: middle;
+	margin-top: 27px;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+.p1hotchocolate {
+	width: 400px;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+.h3menu2 {
+	font-size: 25px;
+	text-align: center;
+}
+.coffee {
+	width: 800px;
+	height: 550px;
+	vertical-align: middle;
+	margin-top: 27px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.p2coffee {
+	width:400px;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'BPG Mikheil Stefane';
 
+}
+.coffeelist {
+	font-size: 18px;
+	text-align: center;
+}
+.box1menu {
+	width: 350px;
+	margin-top: 14px;
+	margin-left: 200px;
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+.Khilamushi {
+	width: 600px;
+	height: 470px;
+	vertical-align: middle;
+	margin-top: 27px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.pkhilamushi {
+	width: 400px;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	line-height: 20px;
+}
+.tea {
+	width: 700px;
+	height: 550px;
+	vertical-align: middle;
+	margin-top: 27px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+.tea1 {
+	width: 400px;
+	font-size: 18px;
+	margin-left: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'BPG Mikheil Stefane';
+	font-weight: bold;
+	line-height: 25px;
 }
