@@ -6,6 +6,7 @@
 	vertical-align: middle;
 	margin-top: 30px;
 	margin-right: 60px;
+	margin-left: 30px;
 
 }
 .nav {
@@ -250,4 +251,36 @@
 	font-family: 'BPG Mikheil Stefane';
 	font-weight: bold;
 	line-height: 25px;
+}
+
+/* contact page  */
+
+.eyes {
+	width: 650px;
+	height: 500px;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+
+.h3contact {
+	padding-top: 40px;
+	margin-bottom: 50px;
+}
+.contactinfo {
+	margin-bottom: 55px;
+	color: red;
+}
+.contact {
+	width: 650px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 22px;
+	line-height: 40px;
+	font-family: 'KA_LORTKIPANIDZE';
+	font-weight: 900;
+}
+.contactinfo2 {
+	color: #663300
+;
 }
