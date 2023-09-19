@@ -172,10 +172,13 @@
 	width: 800px;
 	height: 550px;
 	vertical-align: middle;
+	/*full versiom 
 	margin-top: 27px;
-	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 50px;
+	margin-left: 50px;
+	*/
+	margin: 27px 50px 50px 50px ;
 }
 .p2coffee {
 	width:400px;
@@ -196,8 +199,8 @@
 .box1menu {
 	width: 350px;
 	margin-top: 30px;
-	margin-left: 200px;
 	margin-bottom: 30px;
+	margin-left: 200px;
 	font-size: 18px;
 	display: inline-block;
 	vertical-align: middle;
@@ -216,10 +219,13 @@
 	width: 600px;
 	height: 470px;
 	vertical-align: middle;
+	/* full version 
 	margin-top: 27px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 50px;
+	*/
+	margin: 27px 50px 50px 50px;
 }
 .pkhilamushi {
 	width: 400px;
@@ -236,10 +242,13 @@
 	width: 700px;
 	height: 550px;
 	vertical-align: middle;
+/* full version
 	margin-top: 27px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 50px;
+	*/
+	margin: 27px 50px 50px 50px;
 }
 .tea1 {
 	width: 400px;
