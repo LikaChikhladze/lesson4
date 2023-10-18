@@ -294,6 +294,7 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	transform: translate(-15%);
+	box-shadow: -15px -8px 15px rgb(78, 77, 76);
 }
 .khilamushi1-1 h3 {
 	max-width: 1000px;
@@ -321,31 +322,70 @@ body {
 
 /*  section 3 menu page */
 
-.tea-section {
+.tea1 {
 	width: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
 	align-items: center;
-}
-.tea-section img {
-	max-width: 600px;
-	width: 100%;
-}
-.tea {
-	width: 700px;
-	height: 550px;
-	vertical-align: middle;
-	/* margin: 27px 50px 50px 50px; */
-}
-.tea1 {
-	max-width: 300px;
+	text-align: center;
 	font-size: 18px;
-	/* margin-left: 50px; */
+
+}
+.tea1 h3 {
+	max-width: 900px;
+	width: 100%;
+	margin: 70px 0 50px 80px;
+	font-family: "BPG No9", sans-serif;
+	font-size: 25px;
+	color: #900505;
+	text-shadow: -7px -8px 15px rgb(121, 6, 6);
+}
+.tea1 img {
+	max-width: 650px;
+	width: 100%;
+	border-radius: 25px 65px;
+	transform: translate(65%);
+	box-shadow: 15px -8px 15px rgb(121, 6, 6);
+}
+.tea1 p {
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	line-height: 35px;
+	font-family: 'BPG Mikheil Stefane';
+	transform: translateX(-185%);
+	text-shadow: -7px -8px 15px rgb(81, 71, 71);
+
+	/* transform: translateX(-15%); */
+
+}
+
+
+
+
+
+
+
+	/* transform: translate(-70%); */
+
+
+/* .tea1 {
+	width: 400px;
+	height: auto;
+	width: 100%;
+	font-size: 18px;
 	text-align: center;
 	font-family: 'BPG Mikheil Stefane';
 	font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
 	line-height: 25px;
-}
+} */
+
+
 
 /* contact page  */
 
