@@ -17,17 +17,18 @@ body {
 	flex-wrap:wrap;
 }
 .header-wrap{
-	max-width: 1088px;
+	max-width: 1024px;
 	width: 100%;
 	margin: 0 auto;
 	height: auto;
 	position: fixed;
-	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	/* background-color: beige; */
 	text-shadow: 3px 6px 16px rgb(246, 73, 102);
+	font-family: "BPG Irubaqidze", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	z-index: 100;
 }
 .otakhilogo {
 	max-width: 60px;
@@ -37,26 +38,15 @@ body {
 	border-radius: 50px;
 	box-shadow: 5px 7px 20px rgb(244, 49, 81);
 }
-.nav {
-	max-width: 450px;
+.nav-nav {
+	max-width: 400px;
 	width: 100%;
-	height: auto;
-	font-family: "BPG Irubaqidze", sans-serif;
-}
-.fa-bars {
-	display: none;
-	font-size: 25px;
 }
 .nav-ul {
+	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	font-size: 25px;
-	font-weight: bold;
-}
-.navli {
-	font-size: 25px;
-	font-weight: bold;
 }
 .color {
 	color: #cc00cc;
