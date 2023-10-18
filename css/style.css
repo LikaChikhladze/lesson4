@@ -188,44 +188,61 @@ body {
 
 /* start of a menu page */
 
-
-
-.h3menu1 {
-	font-size: 25px;
+/* section1 menu page*/
+.menu1-1 {
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-top: 30px;
-	margin-bottom: 15px;
-	text-align: center;
+	margin-bottom: 80px;
+}
+.menu1-1 h3 {
+	max-width: 475px;
+	width: 100%;
+	height: auto;
+	font-size: 25px;
 	color: red;
 	font-family: "ALKDots", sans-serif;
 	line-height: 45px;
-	font-weight: 900;
+	font-weight: bold;
+	text-shadow: -7px -8px 15px rgb(143, 2, 2);	
 }
-.main {
-	padding-top: 30px;
+.menu1-1 img {
+	max-width: 750px;
+	width: 100%;
+	height: auto;
+	margin: 50px 30px 0 0;
+	box-shadow: -7px -8px 15px rgb(143, 2, 2);
+	border-radius: 45px;
 }
-.hotchocolate {
-	width: 650px;
-	height: 400px;
-	vertical-align: middle;
-	margin-top: 27px;
-	margin-right: 50px;
-	margin-left: 50px;
-	margin-bottom: 50px;
-}
-.p1hotchocolate {
-	width: 400px;
-	font-size: 20px;
-	display: inline-block;
-	vertical-align: middle;
+.menu1-1 p {
+	max-width: 300px;
+	width: 100%;
+	height: auto;
 	text-align: center;
 	font-family: 'Kaushan Script', cursive;
 	word-spacing: 20px;
 	line-height: 40px;
-	}
-.h3menu2 {
-	font-size: 25px;
-	text-align: center;
+	font-weight: bold;
+	text-shadow: -7px -8px 15px rgb(81, 71, 71);
+
 }
+.menu1-2 h3 {
+	max-width: 900px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.menu1-2 img {
+	margin-left: 30px;
+	margin-right: 0;
+	box-shadow: 7px 8px 15px rgb(143, 2, 2);
+}
+
+
+
+
+
 .coffee {
 	width: 800px;
 	height: 550px;
