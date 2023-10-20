@@ -382,42 +382,97 @@ body {
 
 
 /* contact page  */
+.contact-wraper {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	text-wrap: wrap;
+}
+.contact-wraper h3 {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+	/* font-family: 'KA_LORTKIPANIDZE'; */
+	font-family: 'Lobster', sans-serif;
+	color: #cc00cc;
+	margin-bottom: 80px;
+	font-size: 27px;
+	text-shadow: -7px -8px 15px rgb(121, 6, 6);
 
-.eyes {
+}
+.contact-wraper img {
+	max-width: 600px;
+	width: 100%;
+	border-radius: 10px 70px;
+	box-shadow: -14px -8px 25px #cc00cc;
+	margin-bottom: 50px;
+	/* transform: translateX(-240px); */
+}
+.contact {
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+	margin-left: 45px;
+}
+.contact h3 {
+	line-height: 40px;
+	font-family: "BPG Irubaqidze", sans-serif;
+}
+.contact-li a {
+	font-family: 'Lobster', sans-serif;
+	font-family: "BPG Irubaqidze", sans-serif;
+	color: rgb(56, 2, 56);
+}
+.contact-li span {
+	color: #ff0000;
+	text-shadow: -5px -3px 15px #900505;
+	margin-right: 10px;
+	line-height: 30px;
+	font-family: 'KA_LORTKIPANIDZE';
+}
+.contact-li {
+	font-size: 19px;
+	font-weight: 900;
+	text-shadow: -7px -8px 15px rgb(100, 67, 67);
+
+}
+.contact2-1 h3 {
+	font-family: 'Lobster', sans-serif;
+
+}
+/* contact page 2
+
+.contact-wraper2 {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	text-wrap: wrap;
+}
+.contact-wraper2 h3 {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+	font-family: 'Lobster', sans-serif;
+	color: #cc00cc;
+	margin-bottom: 80px;
+	font-size: 27px;
+	text-shadow: -7px -8px 15px rgb(121, 6, 6);
+}
+.contact-wraper2 */
+
+
+/* .eyes {
 	width: 650px;
 	height: 500px;
 	vertical-align: middle;
 	margin-left: 50px;
-}
+} */
 
-.h3contact {
+/* .h3contact {
 	padding-top: 40px;
 	margin-bottom: 50px;
-}
-.contactinfo {
+} */
+/* .contactinfo {
 	margin-bottom: 55px;
 	color: red;
-}
-.contact {
-	width: 650px;
-	display: inline-block;
-	vertical-align: middle;
-	text-align: center;
-	font-size: 22px;
-	line-height: 40px;
-	font-family: 'KA_LORTKIPANIDZE';
-	font-weight: 900;
-}
-.contactinfo2 {
-	color: #663300
-;
-}
-.contactpage2 {
-	font-family: 'Croissant One';
-	font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-.contactpage22 {
-	font-family: 'Kaushan Script', cursive;
-}
+} */
