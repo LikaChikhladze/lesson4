@@ -123,6 +123,9 @@
   .footer1-2 {
     max-width: 200px;
   }
+  .footer1:nth-child(1)::after {
+    margin-left: 40px;
+  }
   .menu1-1 img {
     max-width: 600px;
     margin-bottom: 50px;
@@ -399,7 +402,6 @@
   }
   .footer1:nth-child(1)::after {
     margin-left: 12px;
-    margin-right: 0;
   }
   .footer1 {
     -webkit-box-orient: horizontal;
