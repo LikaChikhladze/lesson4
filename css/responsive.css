@@ -264,6 +264,7 @@
   .footer1:nth-child(1)::after {
     margin-left: 20px;
     margin-right: 0;
+    height: 55px;
   }
   .footer1 {
     max-width: 100px;
