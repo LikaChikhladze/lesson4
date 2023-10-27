@@ -50,6 +50,7 @@ body {
 }
 .color {
 	color: #cc00cc;
+	font-weight: bold;
 }
 .active {
 	color: #ff0000
@@ -350,36 +351,7 @@ body {
 	font-family: 'BPG Mikheil Stefane';
 	transform: translateX(-185%);
 	text-shadow: -7px -8px 15px rgb(81, 71, 71);
-
-	/* transform: translateX(-15%); */
-
 }
-
-
-
-
-
-
-
-	/* transform: translate(-70%); */
-
-
-/* .tea1 {
-	width: 400px;
-	height: auto;
-	width: 100%;
-	font-size: 18px;
-	text-align: center;
-	font-family: 'BPG Mikheil Stefane';
-	font-weight: bold;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
-	line-height: 25px;
-} */
-
-
 
 /* contact page  */
 .contact-wraper {
@@ -392,7 +364,6 @@ body {
 	max-width: 500px;
 	width: 100%;
 	height: auto;
-	/* font-family: 'KA_LORTKIPANIDZE'; */
 	font-family: 'Lobster', sans-serif;
 	color: #cc00cc;
 	margin-bottom: 80px;
@@ -406,7 +377,6 @@ body {
 	border-radius: 10px 70px;
 	box-shadow: -14px -8px 25px #cc00cc;
 	margin-bottom: 50px;
-	/* transform: translateX(-240px); */
 }
 .contact {
 	max-width: 400px;
